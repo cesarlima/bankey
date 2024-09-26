@@ -12,6 +12,7 @@
 		8E13C2532CA40BC8001A2765 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E13C2522CA40BC8001A2765 /* LoginViewController.swift */; };
 		8E13C2582CA40BCB001A2765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E13C2572CA40BCB001A2765 /* Assets.xcassets */; };
 		8E13C25B2CA40BCB001A2765 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8E13C25A2CA40BCB001A2765 /* Base */; };
+		8E13C2672CA41237001A2765 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E13C2662CA41237001A2765 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8E13C2572CA40BCB001A2765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E13C25A2CA40BCB001A2765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E13C25C2CA40BCB001A2765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E13C2662CA41237001A2765 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				8E13C2522CA40BC8001A2765 /* LoginViewController.swift */,
+				8E13C2662CA41237001A2765 /* LoginView.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				8E13C2532CA40BC8001A2765 /* LoginViewController.swift in Sources */,
 				8E13C24F2CA40BC8001A2765 /* AppDelegate.swift in Sources */,
+				8E13C2672CA41237001A2765 /* LoginView.swift in Sources */,
 				8E13C2512CA40BC8001A2765 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
