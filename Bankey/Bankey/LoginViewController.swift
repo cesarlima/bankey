@@ -8,10 +8,28 @@
 import UIKit
 
 final class LoginViewController: UIViewController {
+    private let loginView = LoginView(frame: .zero)
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        style()
+        layout()
+    }
+}
+
+extension LoginViewController {
+    private func style() {
+
+    }
+    
+    private func layout() {
+        view.addSubview(loginView)
         
-        view.backgroundColor = .blue
+        NSLayoutConstraint.activate([
+            loginView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            loginView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            loginView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 1),
+            view.trailingAnchor.constraint(equalToSystemSpacingAfter: loginView.trailingAnchor, multiplier: 1)
+        ])
     }
 }
